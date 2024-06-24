@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {}
+import {FaMapMarker} from 'react-icons/fa'
 
 const JobListing = ({ job }) => {
     const [showFullDescription, setShowFullDescription] = useState(false);
